@@ -1,0 +1,190 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px; /* Tamaño de la foto de perfil */
+    border-radius: 50%; /* Foto redondeada */
+    margin-top: 20px;
+}
+
+/* Menú de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #444;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Centrado del texto y contenido */
+.education-item {
+    text-align: left; /* Texto alineado a la izquierda */
+    margin: 40px auto; /* Márgenes automáticos para centrar */
+    max-width: 800px; /* Define el ancho máximo del contenido */
+    padding: 20px; /* Espacio interno para mejorar la lectura */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Justificación del texto */
+.education-item p {
+    text-align: justify;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo para la formación académica con fotos encima del texto */
+.education-photo-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; /* Tamaño de las imágenes */
+    height: auto; /* Mantener proporción */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.education-item h3 {
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Sección de hobbies */
+.hobbies {
+    padding: 20px;
+}
+
+/* Estilo para cada hobby */
+.hobby-item {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Justificación del texto en hobbies */
+.hobby-item p {
+    text-align: justify;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo para las imágenes de hobbies */
+.hobby-photo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px; /* Tamaño ajustable */
+    border-radius: 10px;
+}
+
+/* Estilo para los videos */
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Sección de criptografía */
+.cryptography-section {
+    padding: 20px;
+}
+
+/* Estilo para cada ítem de criptografía */
+.cryptography-item {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Justificación del texto en criptografía */
+.cryptography-item p {
+    text-align: justify;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo para las imágenes de criptografía */
+.crypto-photo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px; /* Ajusta según sea necesario */
+    border-radius: 10px;
+}
+
+/* Redes sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 40px; /* Tamaño del icono de redes sociales */
+    height: 40px;
+    object-fit: contain;
+}
+
+.social-icon:hover {
+    opacity: 0.7; /* Efecto de opacidad al pasar el ratón */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3 {
+    margin: 10px 0;
+}
